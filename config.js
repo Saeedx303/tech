@@ -5,7 +5,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
 global.video= "" ;
-global.devs = "923135673658"
+global.devs = "923137183974"
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
 global.email="samsamsun789@gmail.com"
@@ -24,8 +24,8 @@ global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/50ffa78397
 
 
 
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,923135673658";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923135673658";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,923137183974";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923137183974";
 
 module.exports = {
 
